@@ -55,3 +55,19 @@ text-align: center;
 .red .sub_tit strong{color: #db0032;
 
 }
+.esg h2{
+  font-size: 40px;
+    font-weight: 700;
+    color: #1d1d1d;
+    margin: 112px 0 0 0;  
+}
+.esg h3{
+     font-weight: 700;
+     color: #1d1d1d;
+     font-size: 32px;
+     margin: 30px 0 15px 0;
+}
+.esg h3 strong{
+    font-weight: 400;
+    color: #003b83;
+}
