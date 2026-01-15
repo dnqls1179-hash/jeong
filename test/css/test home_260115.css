@@ -32,4 +32,10 @@ body{
 .first{
     text-align: center;
 }
+ .first h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1d1d1d;
+    margin: 116px 0 10px 0;
+}
 
