@@ -1,0 +1,35 @@
+@import url(pretendard.css);
+/*******************************테그 초기화**********************/
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;/*밑줄삭제*/
+}
+ul,ol,li{
+    list-style: none; /* 앞에 도형제거*/
+}
+/*******************************테그 초기화**********************/
+/*******************************st 기본 스타일**********************/
+body{
+    font-family: 'pretendard';
+    font-size: 17px;
+    font-weight: 400;
+    color: #1d1d1d;
+    line-height: 1.5;
+}
+.wrapper{
+    width: 1260px;
+    margin: 0 auto;
+}
+.first{
+    text-align: center;
+}
+
