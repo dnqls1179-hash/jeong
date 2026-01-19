@@ -36,28 +36,34 @@ body{
     font-size: 40px;
     font-weight: 700;
     color: #1d1d1d;
-    margin: 120px 0 28px 0;
+    margin: 120px 0 18px 0;
 }
 .global .sub_tit{
     color: #00b900;
-    margin: 0 0 12px 0;
+    margin: 0 0 9px 0;
 }
 .global a{
     display: inline-block;
     color: #00b900;
     border: 1px solid #00b900;
-    padding: 6px 26px;
-    margin: 27px 0 34px 0;
+    padding: 7px 33px;
+    margin: 28px 0 43px 0;
 }
 .market{
-    margin: 98px 0 0 0;
     background: url(../images/market_bg.jpg);
-    color: #fff;
-    height: 641px;
     text-align: center;
+    height: 641px;
+    color: #fff;
 }
 .market h2{
     font-size: 40px;
     font-weight: 700;
-    padding: 118px 0 22px 0;
+    color: #fff;
+    margin: 118px 0 22px 0;
+}
+.market a{
+    display: inline-block;
+    border: 1px solid #fff;
+    margin: 28px 0 35px 0;
+    padding: 28px 0 35px 0;
 }
