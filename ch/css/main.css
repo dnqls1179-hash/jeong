@@ -1,0 +1,125 @@
+@import url(font.css);
+@import url(common.css);
+
+.header{
+    height: 100px;
+}
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .gnb ul{
+    display: flex;/*li를 좌우로 배치*/
+}
+.header .gnb ul li a{
+    display: block;
+    line-height: 100px;/*행간을 header의 높이와 동일하게*/
+    padding: 0 31px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #1d1d1d;
+}
+
+.visual{
+    background: url(../images/visual_bg.jpg) no-repeat center center / cover;
+    color: #fff;
+}
+.visual .wrapper{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 93px 0;
+}
+.visual h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 22px 0;
+}
+.biz{
+    margin: 177px 0 113px 0;
+    text-align: center;
+}
+.biz .tit h2{
+    font-weight: 700;
+    color: #002365;
+}
+.biz .tit p{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1d1d1d;
+    line-height: 1.3;
+    margin: 23px 0 0 0;
+}
+.biz .list{
+    margin: 56px 0 0 0;
+}
+.biz .list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.biz .list ul li{
+    width: 297px;
+}
+.biz .list ul li a{
+    display: block;
+}
+.biz .list ul li a .txt{
+    margin:  0 41px;
+}
+.biz .list ul li a .txt h3{
+    font-size: 32px;
+    margin: 21px 0 6px 0;
+    color: #1d1d1d;
+}
+.biz .list ul li a .txt span{
+    border: 1px solid #ccc;
+    margin: 12px 0 0 0;
+    display: block;
+    padding: 12px 0;
+}
+.brand{
+    background: url(../images/brand_bg.jpg) no-repeat center center / cover;
+    color: #fff;
+}
+.brand .wrapper{
+    height: 955px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 546px 0 128px 0;
+    align-items: flex-start;
+}
+.brand h2{
+    font-weight: 700;
+    color: #002365;
+}
+.brand p{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 19px 0 30px 0;
+}
+.brand a{
+    display: block;
+    border: 1px solid #fff;
+    padding: 12px 38px;
+    margin: 30px 0 0 0;
+}
+.footer{
+    color: #ccc;
+}
+.footer .f_nav ul{
+    display: flex;
+    gap: 0 45px;
+}
+.footer .f_info{
+    margin: 19px 0 21px 0;
+    display: flex;
+    gap: 0 18px;
+}
+.footer .f_nav ul .privacy{
+    font-weight: 700;
+}
