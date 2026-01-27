@@ -1,3 +1,162 @@
-img{
+@import url(common.css);
+@import url(pretendard.css);
+
+.biz{
+    margin: 100px 0;
+}
+.biz .group{
+    display: flex;
+    justify-content: space-between;
+}
+.biz .group.art{
+    flex-direction: row-reverse;
+    margin: 113px 0 0 0;
+}
+.biz .group .tit{
+    width: 511px;
+}
+.biz .group .tit h2{
+    color: #840001;
+}
+.biz .group .tit .sub_tit{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #2A2D31;
+    margin: 13px 0 19px 0;
+}
+.biz .group .tit .sub_tit strong{
+    color: #840001;
+}
+.biz .group .tit .btn_wrap{
+    margin: 57px 0 0 0;
+    display: flex;
+    gap: 6px 6px;
+    flex-wrap: wrap;/* 여러줄 허용 */
+}
+.biz .group .tit .btn_wrap a{
+    display: block;
+    border: 1px solid #840001;
+    color: #840001;
+    padding: 13px 35px;
+    border-radius: 30px;
+    white-space: nowrap;/* 줄바꿈 금지 */
+}
+.biz .group .tit .btn_wrap a.active{
+    background-color: #840001;
+    color: #fff;
+}
+.biz .group .photo{
+    overflow: hidden;
+    width: 618px;
+    height: 494px;
+    border-radius: 30px;
+}
+.biz .group .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px){ /* 브라우저 넓이가 768 이하일때 */
+                        .biz .group{
+                            display: block;
+                            /* justify-content: space-between;
+                            --flex 일때만 적용  */
+                        }
+                        .biz .group.art{
+                            /* flex-direction: row-reverse; */
+                            margin: 135px 0 0 0;
+                        }
+                        .biz .group .tit{
+                            width: auto;
+                        }
+                        .biz .group .tit .sub_tit{
+                            font-size: 28px;
+                            margin: 22px 0 33px 0;
+                        }
+                        .biz .group .tit .btn_wrap{
+                            margin: 30px 0 47px 0;
+                        }
+                        .biz .group .tit .btn_wrap a{
+                            padding: 10px 28px;
+                        }
+                        .biz .group .photo{
+                            width: auto;
+                            height: 142px;
+                            border-radius: 20px;
+                        }
+                        .biz .group .photo img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                        
+}/* @media */
+  
+.photo_wrap{
+    margin: 100px 0;
+}
+.photo_wrap h2{
+    margin: 50px 0 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #840001;
+}
+.photo_wrap .photo_hfix{
+    overflow: hidden;
+    border: 2px solid red;
+    border-radius: 30px;
+    height: 828px;
+}
+.photo_wrap .photo_hfix img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:768px){
+    .photo_wrap .photo_hfix{
+        height: 300px;
+    }
+}/* @media */
+.photo_wrap .photo_resize{
+    overflow: hidden;
+    border: 2px solid red;
+    border-radius: 30px;
+    height: 828px;
+}
+.photo_wrap .photo_resize img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:768px){
+    .photo_wrap .photo_resize{
+        height: 300px;
+    }
+}/* @media */
+.photo_wrap .photo_font{
+    overflow: hidden;
+    border: 2px solid red;
+    border-radius: 30px;
+    font-size: 0;
+    line-height: 0;
+}
+.photo_wrap .photo_font img{
+    width: 100%;
+    /*넓이나 높이만 주면 나머지는 비율에 맞게 따라옴*/
+}
+.photo_wrap .photo_all{
+    overflow: hidden;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.photo_wrap .photo_all img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.test img{
     width: 324px;
 }
